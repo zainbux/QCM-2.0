@@ -1,0 +1,40 @@
+import Image from 'next/image'
+import { getDetails } from "@/sanity/sanity-utils";
+
+
+
+export default async function Home() {
+
+  const details = await getDetails();
+
+// Assuming you have fetched the data into the 'details' variable
+
+console.log("Details:", details); // Log the 'details' array to see its contents
+
+// Separate the prices based on the selected package
+const basicPrices = details
+  .filter(detail => detail.selectedPackage === 'Basic')
+  .map(detail => detail.price);
+
+const premiumPrices = details
+  .filter(detail => detail.selectedPackage === 'Premium')
+  .map(detail => detail.price);
+
+const luxuryPrices = details
+  .filter(detail => detail.selectedPackage === 'Luxury')
+  .map(detail => detail.price);
+
+console.log("Basic Prices:", basicPrices);
+console.log("Premium Prices:", premiumPrices);
+console.log("Luxury Prices:", luxuryPrices);
+
+
+  return (
+    
+    <div>
+      <h1>HETTTTTT</h1>
+     
+    </div>
+  )
+
+}
