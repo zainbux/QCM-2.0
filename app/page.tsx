@@ -4,7 +4,6 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
 import ImageCarousel from './components/ImgCarousel';
-import Photos from './components/Photos';
 import Pricing from './components/Pricing';
 import { Contact} from './components/Contact';
 import Footer from './components/Footer';
