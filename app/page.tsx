@@ -8,8 +8,6 @@ import Pricing from './components/Pricing';
 import { Contact} from './components/Contact';
 import Footer from './components/Footer';
 
-
-
 import { getDetails, getImages } from "@/sanity/sanity-utils";
 
 export default async function Home() {
