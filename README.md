@@ -15,4 +15,4 @@ Dynamic content including an About section, carousel of images, pricing schema, 
 The booking section allows customers to select detailing packages and submit booking information
 Easy content management via Sanity-Studio accessed through the "/admin" route
 
-[Deployed on Vercel]([" "](https://www.qcmdetailing.com/))
+[Deploryed on Vercel](https://www.qcmdetailing.com/)
